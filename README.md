@@ -4,7 +4,7 @@ according to 视频 -> 添加视频 on 截图 Input box insert xss payload  and 
 payload:
 
 ```html
-<img src=x onerror="alert(document.cookie)">" 
+1$<img src=x onerror="alert(document.cookie)">" 
 ```
 
 then according to 系统 -> 开放API设置 -> start 接口开关
